@@ -42,7 +42,8 @@ If Optimization Toolbox is not installed, the MPC block automatically switches t
    H = 8500;          % Scale height (m)
    x0 = [10000; 0; 0]; % Initial state [Altitude; Velocity; Pitch angle]
 4. Go to the command line and type in order.
-run('setup_file.m')
-run('build_Satellite_EDL_Controller_ready.m')
-run('run_sim.m')
+ ```matlab
+   run('setup_file.m')
+   run('build_Satellite_EDL_Controller_ready.m')
+   run('run_sim.m')
 
